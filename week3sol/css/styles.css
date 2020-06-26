@@ -1,0 +1,83 @@
+body {
+	font-size: 20px;
+	color: #fff;
+	background-color: brown;
+	font-family: Serif, sans-serif;
+}
+
+/*---Header ---*/
+
+#header-nav {
+	background-color: maroon;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	min-height: 80px;
+}
+.navbar-brand h1 {
+	font-weight: bold;
+	color: #ffeeee;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.navbar-brand a:hover , .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-toggle {
+	margin-top: 25px;
+}
+/*End of Navbar Header*/
+
+/*----Main Content---*/
+#menu-heading {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 1.5em;
+	color: pink;
+	font-weight: bold;
+	font-family: normal;
+	text-transform: uppercase;	
+}
+#chicken {
+	background-color: pink;
+	color: black;
+	border: 1px  solid black;
+	margin-bottom: 30px;
+}
+#ch-heading {
+	text-transform: uppercase;
+}
+
+
+@media (min-width: 768px) {
+	#nav-list {
+		visibility: hidden;
+	}
+}
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #ff6347;
+		color: black;
+		text-align: center;
+		padding: 0px;
+	}
+	#nav-list {
+		margin: 0px;
+	}
+	#nav-list li {
+		margin-top: 5px;
+	}
+	#nav-list hr {
+		margin: 10px 0 0;
+	}
+
+	#chicken {
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
+
+
+}
